@@ -180,10 +180,10 @@ apache:
         - rewrite
     vhosts:
         vhost1:
-            servername: treicker.dev
+            servername: sistema.test
             serveraliases:
-                - www.treicker.dev
-                - treicker.dev
+                - www.sistema.test
+                - sistema.test
             docroot: /var/www/awesome
             port: '80'
             setenvif:
